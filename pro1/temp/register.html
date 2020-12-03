@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{%block body%}
+<div class="jumbotron">
+  <h1 class="display-4">Hello, {{name}} ,</h1>
+  <p class="lead">Thanks for Submit......We have just recived your request</p>
+  <hr class="my-4">
+  <p>Thanks For Using our website</p>
+  <a class="btn btn-primary btn-lg" href="{% url 'home' %}" role="button">Goto Home</a>
+</div>
+
+{%endblock%}
